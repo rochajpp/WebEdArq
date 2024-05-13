@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --firstColor: #0D0C0C;
+    --secondColor: #F2A516;
+}
+
+body{
+    background-color: var(--firstColor);
+}
