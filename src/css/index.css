@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --firstColor: #111010;
+    --secondColor: #d89f15;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--firstColor);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(--firstColor);
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--secondColor);
+    border-radius: 1rem; 
+}
+
