@@ -1,6 +1,18 @@
 header{
-    height: 15%;
+    width: 100vw;
+    position: fixed;
+    padding: 2rem;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.activeHeader{
+    background-color: var(--firstColor);
     padding: 1rem 2rem;
+}
+
+.menu-on .activeHeader{
+    background-color: transparent;
 }
 
 .header-container{

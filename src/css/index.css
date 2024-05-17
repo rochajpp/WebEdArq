@@ -9,12 +9,18 @@
     --secondColor: #d89f15;
 }
 
-body{
-    height: 100vh;
-    background-color: var(--firstColor);
+body, html{
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
 
+.background-image{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+    
+}
 
 body::-webkit-scrollbar{
     width: 0.5rem;

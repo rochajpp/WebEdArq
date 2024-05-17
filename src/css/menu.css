@@ -4,11 +4,11 @@
     position: fixed;
     top: -100vh;
     display: flex;
-    background: url("../img/backgroundHouse1.png") center no-repeat;
-    background-size: cover;
+    background-color: #111010e4;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    z-index: 1000;
 }
 
 .menu-container{
@@ -36,10 +36,12 @@
 .menu-container a{
   cursor: pointer;
   transition: 0.5s;
+  text-decoration: none;
+  color: white;
 }
 
 .menu-container a:hover{
-  
+  color: rgba(255, 255, 255, 0.279);
 }
 
 .filter{
