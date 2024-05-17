@@ -1,0 +1,12 @@
+@media screen and (max-width: 350px){
+    .logo-header{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header{
+        padding: 1rem;
+    }
+    
+}
