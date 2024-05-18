@@ -4,8 +4,7 @@
     position: fixed;
     top: -100vh;
     display: flex;
-    background: url("../img/backgroundHouse1.png") center no-repeat;
-    background-size: cover;
+    background-color: #111010e4;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
