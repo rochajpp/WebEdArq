@@ -27,6 +27,7 @@ header{
     align-items: center;
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
+    text-decoration: none;
 }
 
 .logo-header h1{
