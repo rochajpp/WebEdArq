@@ -1,3 +1,11 @@
+@media screen and (max-width: 1055px){
+    #about{
+        height: 180vh;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 845px){
     .logo-home{
         font-size: 1.6rem;
@@ -8,15 +16,31 @@
     }
 }
 
-@media screen and (max-width: 350px){
-    .logo-header{
-        font-size: 0.6rem;
+
+@media screen and (max-width: 560px){
+    #about{
+        height: 220vh;
+    }
+    .profile-image{
+        width: 20rem;
     }
 }
-
 @media screen and (max-width: 400px){
     header{
         padding: 1rem;
     }
     
 }
+@media screen and (max-width: 350px){
+    .logo-header{
+        font-size: 0.6rem;
+    }
+    .profile-image{
+        width: 15rem;
+    }
+
+    #about{
+        height: 240vh;
+    }
+}
+
