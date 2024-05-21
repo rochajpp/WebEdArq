@@ -80,12 +80,14 @@ section{
 /*Section ABOUT*/
 #about{
     background-color: var(--firstColor);
+
 }
 
 .about-container{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 2rem;
     gap: 4rem;
 }
@@ -150,4 +152,77 @@ section{
 
 .buttons-about button:hover{
     background-color: rgba(252, 252, 252, 0.241);
+}
+
+
+
+
+/*Section Projects*/
+
+#projects {
+    height: 150vh;
+    backdrop-filter: brightness(40%);
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.projects-container h1{
+    font-size: 4rem;
+}
+
+.projects-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box-project {
+    width: 30rem;
+    height: 18rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.active{
+    opacity: 1;
+}
+
+.box-project ion-icon {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.right {
+    right: 1rem;
+}
+
+.left {
+    left: 1rem;
 }
