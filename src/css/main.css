@@ -6,8 +6,6 @@
 }
 
 section{
-    height: 100vh;
-    width: 100%;
     color: white;
     display: flex;
     align-items: center;
@@ -17,6 +15,8 @@ section{
 
 /*Section HOME*/
 #home{
+    height: 100vh;
+    width: 100%;
     backdrop-filter: brightness(40%);
 }
 
@@ -80,6 +80,7 @@ section{
 /*Section ABOUT*/
 #about{
     background-color: var(--firstColor);
+    padding: 5rem 0;
 
 }
 
@@ -160,7 +161,7 @@ section{
 /*Section Projects*/
 
 #projects {
-    height: 150vh;
+    padding: 5rem 0;
     backdrop-filter: brightness(40%);
 }
 

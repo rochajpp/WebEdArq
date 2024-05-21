@@ -1,10 +1,15 @@
-@media screen and (max-width: 1055px){
-    #about{
-        height: 180vh;
-    }
+@media screen and (max-width: 1055px){  
     .about-container{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 1000px){
+    .about-container{
+        flex-direction: column;
+    }
+   
+    
 }
 @media screen and (max-width: 845px){
     .logo-home{
@@ -18,11 +23,24 @@
 
 
 @media screen and (max-width: 560px){
-    #about{
-        height: 220vh;
-    }
+   
     .profile-image{
         width: 20rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .box-project{
+        width: 25rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+   
+    .box-project{
+        width: 18rem;
+        height: 12rem;
     }
 }
 @media screen and (max-width: 400px){
@@ -31,7 +49,7 @@
     }
     
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 415px){
     .logo-header{
         font-size: 0.6rem;
     }
@@ -39,8 +57,5 @@
         width: 15rem;
     }
 
-    #about{
-        height: 240vh;
-    }
 }
 
