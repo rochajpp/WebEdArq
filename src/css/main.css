@@ -192,14 +192,22 @@ section{
     position: relative;
     display: flex;
     flex-direction: column-reverse;
+    border-radius: 1rem;
 }
-
+.images{
+    width: 30rem;
+}
 .project-image {
     width: 100%;
     height: 100%;
     position: absolute;
     transition: 0.5s;
     opacity: 0;
+    user-select: none; /* Impede a seleção de texto e elementos */
+    -webkit-user-drag: none; /* Impede o arrasto de imagens no Chrome e Safari */
+    -moz-user-drag: none; /* Impede o arrasto de imagens no Firefox */
+    -o-user-drag: none; /* Impede o arrasto de imagens no Opera */
+    -khtml-user-drag: none; /* Impede o arrasto de imagens no Konqueror */
 }
 
 .active{
