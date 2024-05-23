@@ -235,3 +235,28 @@ section{
 .left {
     left: 1rem;
 }
+
+.more-project{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.username-instagram{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.more-project:hover{
+    letter-spacing: 0.2rem;
+}
