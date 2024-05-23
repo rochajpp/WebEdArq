@@ -1,0 +1,62 @@
+.project-plus{
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 10000;
+    overflow: hidden;
+    display: none;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.open-project .project-plus{
+    display: flex;
+}
+
+.box-project-plus{
+    position: relative;
+    height: 34rem;
+    border-radius: 1rem;
+    display: flex;
+    background-color: var(--firstColor);
+    width: 90%;
+    overflow: hidden;
+    
+}
+
+
+.desc-project{
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.button-desc-plus{
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid var(--secondColor);
+    background-color: transparent;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.button-desc-plus:hover{
+    background-color: rgba(255, 255, 255, 0.152);
+}
+
+.close-plus{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}

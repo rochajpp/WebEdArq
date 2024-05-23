@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="src/css/menu.css">
     <link rel="stylesheet" type="text/css" href="src/css/header.css">
     <link rel="stylesheet" type="text/css" href="src/css/media.css">
+    <link rel="stylesheet" type="text/css" href="src/css/projectPlus.css">
 
     <link rel="icon" href="src/icon.png">
 </head>
@@ -32,6 +33,21 @@
                 <a><h1>Contato</h1></a>
             </nav>
             <p class="copyright-menu">Copyright © 2024. Desenvolvido por Edvar Rocha Arquitetura</p>
+        </div>
+    </div>
+    <div class="project-plus">      
+        <div class="box-project-plus">
+            <ion-icon name="close-outline" class="close-plus" onclick="closeProject()"></ion-icon>
+            <img class="image-project-plus" />
+            <div class="desc-project">
+                <h1 class="title-desc-plus"></h1>
+                <p class="p-desc-plus">
+
+                </p>
+                <a target="_blank" class="a-desc-plus">
+                    <button class="button-desc-plus">Ver mais</button>
+                </a>
+            </div>
         </div>
     </div>
     <header>
@@ -118,7 +134,7 @@
                 <div class="projects-container">
                     <h1>Projetos</h1>
                     <div class="projects-area">
-                        <div class="box-project">
+                        <div class="box-project" onclick="openProject(1)">
                             <ion-icon name="chevron-back-outline" class="left"></ion-icon>
                             <img class="project-image" src="src/img/casa04-1.jpg">
                             <img class="project-image" src="src/img/casa04-2.jpg">
@@ -127,7 +143,7 @@
                             </div>
                             <ion-icon name="chevron-forward-outline" class="right"></ion-icon>
                         </div>
-                        <div class="box-project">
+                        <div class="box-project" onclick="openProject(2)">
                             <ion-icon name="chevron-back-outline" class="left"></ion-icon>
                             <img class="project-image" src="src/img/casa3-1.jpg">
                             <img class="project-image" src="src/img/casa3-2.jpg">
@@ -136,13 +152,13 @@
                             </div>
                             <ion-icon name="chevron-forward-outline" class="right"></ion-icon>
                         </div>
-                        <div class="box-project">
+                        <div class="box-project" onclick="openProject(3)">
                             <img class="project-image active" src="src/img/EntreJanelas.jpg">
                             <div class="info-project">
                                 
                             </div>
                         </div>
-                        <div class="box-project">
+                        <div class="box-project" onclick="openProject(4)">
                             <img class="project-image active" src="src/img/Casa.jpg">
                             <div class="info-project">
                                 

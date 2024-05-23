@@ -2,7 +2,23 @@
     .about-container{
         flex-direction: column;
     }
+    .box-project-plus{
+        flex-direction: column;
+    }
+
+
+    .image-project-plus{
+        height: 50%;
+        width: 100%;
+    }
 }
+
+@media screen and (min-width: 1055px){  
+    .image-project-plus{
+        width: 40rem;
+    }
+}
+
 
 @media screen and (max-width: 1000px){
     .about-container{
@@ -11,6 +27,16 @@
    
     
 }
+@media screen and (max-width: 875px){   
+    .desc-project{
+        font-size: 0.8rem;
+    }
+
+    .desc-project h1{
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 845px){
     .logo-home{
         font-size: 1.6rem;
@@ -19,6 +45,8 @@
     .subtitle-home{
         font-size: 1rem;
     }
+
+    
 }
 
 

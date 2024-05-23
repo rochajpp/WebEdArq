@@ -193,6 +193,7 @@ section{
     display: flex;
     flex-direction: column-reverse;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .images{
     width: 30rem;
