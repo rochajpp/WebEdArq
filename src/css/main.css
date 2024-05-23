@@ -10,13 +10,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 
 /*Section HOME*/
 #home{
     height: 100vh;
-    width: 100%;
     backdrop-filter: brightness(40%);
 }
 
