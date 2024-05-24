@@ -5,7 +5,8 @@
     position: fixed;
     z-index: 10000;
     overflow: hidden;
-    display: none;
+    display: flex;
+    bottom: -100vh;
     transition: 0.5s;
     align-items: center;
     justify-content: center;
@@ -13,7 +14,7 @@
 }
 
 .open-project .project-plus{
-    display: flex;
+    bottom: 0;
 }
 
 .box-project-plus{
