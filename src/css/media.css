@@ -46,6 +46,10 @@
         font-size: 1rem;
     }
 
+    .footer-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
     
 }
 
