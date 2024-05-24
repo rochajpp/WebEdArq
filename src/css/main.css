@@ -261,3 +261,74 @@ section{
 .more-project:hover{
     letter-spacing: 0.2rem;
 }
+
+
+
+
+
+
+
+/*Section Contact*/
+
+#contact{
+    padding: 5rem 0;
+    backdrop-filter: brightness(40%);
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 4rem;
+}
+
+.contact-container h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-container input{
+    padding: 0.4rem;
+    width: 20rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--secondColor);
+    color: white;
+}
+
+.contact-container textarea{
+    padding: 0.5rem;
+    resize: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid var(--secondColor);
+    width: 20rem;
+}
+
+.contact-container button{
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid var(--secondColor);
+    background-color: var(--firstColor);
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.contact-container button:hover{
+    background-color: rgba(252, 252, 252, 0.085);
+}

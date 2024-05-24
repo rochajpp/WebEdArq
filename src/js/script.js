@@ -1,3 +1,7 @@
+const url = window.location.href;
+const redirectEmail = document.querySelector("#redirect");
+redirectEmail.value = url;
+
 const body = document.querySelector("body");
 
 function activeMenu(){

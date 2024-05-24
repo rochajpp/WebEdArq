@@ -87,3 +87,14 @@
 
 }
 
+@media screen and (max-width: 350px){
+    .contact-container h1{
+        font-size: 1.5rem;
+    }
+    .contact-container input, .contact-container textarea{
+        width: 12rem;
+    }
+
+}
+
+
